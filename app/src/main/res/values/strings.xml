@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SecGuard</string>
+    <string name="guard">Guard</string>
+    <string name="move">Move</string>
+</resources>
