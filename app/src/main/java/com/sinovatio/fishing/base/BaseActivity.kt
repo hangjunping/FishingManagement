@@ -23,4 +23,6 @@ abstract class BaseActivity<B : ViewDataBinding>  : AppCompatActivity() {
         intent.block()
         context.startActivity(intent)
     }
+
+
 }

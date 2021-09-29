@@ -5,9 +5,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".ui.fishing.FishingActivity">
+    tools:context=".ui.fishing.FishingActivity"
+    tools:ignore="MissingConstraints">
 
     <include layout="@layout/layout_top_bar"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="40dp"
+        app:layout_constraintBottom_toTopOf="@id/info"
+        >
 
+        <View
+            android:layout_width="8dp"
+            android:layout_height="26dp"
+            android:background="@drawable/bg_blue_fillet_8" />
+
+        <TextView
+            android:text="船只信息"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/info"
+        android:layout_marginTop="120dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/bg_white_fillet_8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
