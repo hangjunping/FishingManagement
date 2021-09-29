@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:id="@+id/iv_bar_back"
+        android:src="@mipmap/back_ico"
+        android:layout_width="100dp"
+        android:padding="20dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tv_bar_title"
+        android:text="捕捞作业"
+        android:textColor="@color/textTitle"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

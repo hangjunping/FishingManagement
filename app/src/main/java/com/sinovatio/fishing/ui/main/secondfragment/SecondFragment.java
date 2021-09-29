@@ -27,7 +27,6 @@ public class SecondFragment extends BaseFragment< FragmentSecondBinding> {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         STApplication.toastShow("SecondFragment");
-
     }
 
 }
